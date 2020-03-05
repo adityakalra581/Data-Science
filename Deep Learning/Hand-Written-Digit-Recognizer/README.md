@@ -1,6 +1,7 @@
 ## KAGGLE LINK: https://www.kaggle.com/c/digit-recognizer
 (For reading about the problem)
-The dataset used is inbuilt in the tesorflow library.
+
+The dataset used is inbuilt in the tensorflow library.
 
 ## MNIST Handwritten Digit Classification Dataset:
 
