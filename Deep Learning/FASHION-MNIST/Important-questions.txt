@@ -1,0 +1,9 @@
+## QUESTIONS:
+
+Q.1 Why the dataset is divided by 255 before fitting the model ?
+
+Q.2 Why there is a need of reshaping the dataset before fitting the model ?
+
+Q.3 What is MaxPooling2D ?
+
+Q.4 Why there is an increase in accuracy using CNN rather than conventional Neural Network ?
