@@ -3,3 +3,66 @@ Q.1 Explain Out of sample accuracy.
 Q.2 What is Gradient boosting.
 
 Q.3 When does the iterartion in K-means stop.
+
+Q.4 What is the difference between Bias and Variance in 
+   
+   - Random Forest.
+   - Gradient Boosting.
+
+(Solution Link: https://towardsdatascience.com/why-do-random-forest-and-gradient-boosted-decision-trees-have-vastly-different-optimal-max-depth-a64c2f63e127 ) 
+
+Ans 4: 
+
+Highligths of the Solution: 
+
+1. Bias-Variance Tradeoff
+
+We briefly recall the bias-variance tradeoff property.
+The expected loss of a model can be decomposed into three components: bias, variance, and noise.
+
+Bias measures the systematic loss of a model. 
+A model with high bias is not expressive enough to fit the data well (underfitting).
+Variance measures the loss due to a model’s sensitivity to fluctuations in data sets. A model with high variance is oversensitive to spurious patterns in data (overfitting).
+Noise is the unavoidable component of the loss, independent of our model. This is also known as Bayes error.
+
+Ideally we want to minimize both bias and variance, but usually it cannot be done simultaneously.
+Hence there is a tradeoff between bias and variance.
+For example, making our model more expressive will decrease the bias but will increase the variance.
+
+2. Decision Tree
+
+Decision Tree is an excellent base learner for ensemble methods because it can perform bias-variance tradeoff easily by simply 
+tuning max_depth.
+The reason is that Decision Tree is very good at capturing interactions among different features,
+and the order of interactions captured by a tree is controlled by its max_depth.
+For example, max_depth = 2 means interactions between 2 features are captured,
+but interactions among 3 features are not.
+
+Shallow trees can only capture low order interactions, hence they have high bias and low variance.
+Deep trees can model complex interactions and is prone to overfitting. They have low bias and high variance.
+
+Another way to look at bias-variance tradeoff via tuning max_depth is by estimating the number of leaf nodes.
+A decision tree can have at most 2^max_depth leaf nodes.
+The more leaf nodes, the higher capacity a tree has to partition different data points.
+
+3. Random Forest
+
+Random Forest uses a modification of bagging to build de-correlated trees and then averages the output. 
+As these trees are identically distributed, the bias of Random Forest is the same as that of any individual tree. 
+Therefore we want trees in Random Forest to have low bias.
+
+On the other hand, it is fine for these trees to have high variance individually. 
+This is because averaging the trees reduces variance. 
+Combining these two results we end up with deep trees which have low bias and high variance.
+
+4. Gradient Boosted Decision Trees
+
+Gradient Boosting builds trees in a sequential manner. 
+Roughly speaking, it tries to reduce the loss of the ensemble by fitting a new tree to the negative gradients of the 
+loss function, thus effectively performing gradient descent. 
+Every time the ensemble adds a new tree, its model complexity increases and its overall bias decreases,
+even if the new tree is quite simple.
+
+On the other hand, while there isn’t much theoretical study on the variance of Gradient Boosting, 
+empirical results show that the variance of the ensemble is not effectively reduced over the boosting process. 
+Therefore for GBDT we use shallow trees with high bias and low variance.
