@@ -66,3 +66,25 @@ even if the new tree is quite simple.
 On the other hand, while there isn’t much theoretical study on the variance of Gradient Boosting, 
 empirical results show that the variance of the ensemble is not effectively reduced over the boosting process. 
 Therefore for GBDT we use shallow trees with high bias and low variance.
+
+**************************************
+
+Q-5 What are the Evaluation Metrics used for Classification and Regression Models.
+
+Ans. Classification:                                           Regression:
+1. Accuracy                                                   1. Mean Squared Error 
+2. F1-Score                                                   2. R-Squared
+3. Jaccard Similarity Score                                   3. Mean Absolute Error 
+4. Logloss (for Logistic Regression)
+
+
+
+Q-6 How Accuracy and R-Squared is calculated mathematically.
+
+
+
+
+
+
+
+
