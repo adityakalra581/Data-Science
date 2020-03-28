@@ -1,55 +1,53 @@
-## Data-driven-Astronomy
+## [Data-driven-Astronomy](https://www.coursera.org/learn/data-driven-astronomy/)
 
-https://www.coursera.org/learn/data-driven-astronomy/
+
 
 ### Course Info:
 
 - Course outline:
-Week 1: Thinking about data
-  - Principles of computational thinking
-  - Discovering pulsars in radio images
+
+- Week 1: Thinking about data
+    - Principles of computational thinking
+    - Discovering pulsars in radio images
 
 - Week 2: Big data makes things slow
-  - How to work out the time complexity of algorithms
-  - Exploring the black holes at the centres of massive galaxies
+    - How to work out the time complexity of algorithms
+    - Exploring the black holes at the centres of massive galaxies
 
 - Week 3: Querying data using SQL
-  - How to use databases to analyse your data
-  - Investigating exoplanets in other solar systems
+    - How to use databases to analyse your data
+    - Investigating exoplanets in other solar systems
 
 - Week 4: Managing your data
-  - How to set up databases to manage your data
-  - Exploring the lifecycle of stars in our Galaxy
+    - How to set up databases to manage your data
+    - Exploring the lifecycle of stars in our Galaxy
 
 - Week 5: Learning from data: regression
-  - Using machine learning tools to investigate your data
-  - Calculating the redshifts of distant galaxies
+    - Using machine learning tools to investigate your data
+    - Calculating the redshifts of distant galaxies
 
 - Week 6: Learning from data: classification
-  - Using machine learning tools to classify your data
-  - Investigating different types of galaxies
-
+    - Using machine learning tools to classify your data
+    - Investigating different types of galaxies
 
 
 - All the Course, Quiz, Programming Assesments credits goes to the Author of the course.
 
-- Instructors
+**Instructors**
 
-1.Tara Murphy 
+1.[Tara Murphy](https://www.coursera.org/instructor/tara-murphy) 
 
 Associate Professor
 
 School of Physics
 
-https://www.coursera.org/instructor/tara-murphy
 
-2. Simon Murphy 
+2. [Simon Murphy](https://www.coursera.org/instructor/simon-murphy) 
 
 Postdoctoral Researcher
 
 School of Physics
 
-https://www.coursera.org/instructor/simon-murphy
 
 - The University of Sydney
 
