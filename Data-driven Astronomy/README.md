@@ -33,21 +33,30 @@ Week 1: Thinking about data
 
 - All the Course, Quiz, Programming Assesments credits goes to the Author of the course.
 
-Instructors
-Instructor rating4.92/5 (43 Ratings)
-Tara Murphy 
+- Instructors
+
+1.Tara Murphy 
+
 Associate Professor
+
 School of Physics
+
 https://www.coursera.org/instructor/tara-murphy
 
-Simon Murphy 
+2. Simon Murphy 
+
 Postdoctoral Researcher
+
 School of Physics
+
 https://www.coursera.org/instructor/simon-murphy
 
 - The University of Sydney
 
 The University of Sydney is one of the world’s leading comprehensive research and teaching universities,
+
 consistently ranked in the top 1 percent of universities in the world. In 2015, we were ranked 45 in the
+
 QS World University Rankings, and 100 percent of our research was rated at above, or well above,
+
 world standard in the Excellence in Research for Australia report.
