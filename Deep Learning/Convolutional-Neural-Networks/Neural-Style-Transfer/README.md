@@ -5,10 +5,13 @@
 
 ![](images/cnn-architecture.png)
 
-This project requires slightly different approach with the Networks.
-As there is no need for classification in this problem statement.
+- This project requires slightly different approach with the Networks.
+- As there is no need for classification in this problem statement.
 
-2. VGG Net :
+2. VGG Net : 
+- Following the original NST paper, we will use the VGG network.
+- Specifically, we'll use VGG-19, a 19-layer version of the VGG network.
+- This model has already been trained on the very large ImageNet database, and thus has learned to recognize a variety of low level features (at the shallower layers) and high level features (at the deeper layers).
 
 3. Tensorflow :
 
@@ -40,18 +43,24 @@ NST algorithms are characterized by their use of deep neural networks in order t
 
 ### Concept : 
 
-Using the Methodology of Transfer Learning, in this project we'll combine Content Images with Style images to change the Neural style 
+- Using the Methodology of Transfer Learning, in this project we'll combine Content Images with Style images to change the Neural style 
 of the images.
+
+- First the image is processed directly and a new image is generated.
+
+- Most of the time the generated image is Noisy with a high Cost function.
+
+- Further using Hyperparameter Tuning and Optimization this cost function is reduced to **obtain new Artistic changed image.**
 
 Look for Example:
 
 ![](images/tm.jpg)
 
-$$TAJ-MAHAL$$
+**TAJ-MAHAL**
 
 ![](images/interstellar.png)
 
-$$Gargantua (From Interstellar)
+**Gargantua (From Interstellar)**
 
 Became This:
 
@@ -66,6 +75,6 @@ Became This:
 
 
 
-
+***********************************************************************************
 **All the images are picked from Google images only and the project is for 
 Education purpose only and not for production** 
