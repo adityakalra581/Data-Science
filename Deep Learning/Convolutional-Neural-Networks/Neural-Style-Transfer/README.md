@@ -5,6 +5,9 @@
 
 ![](images/cnn-architecture.png)
 
+This project requires slightly different approach with the Networks.
+As there is no need for classification in this problem statement.
+
 2. VGG Net :
 
 3. Tensorflow :
@@ -13,6 +16,11 @@
   
   - Content Cost Function
   - Style Cost Function.
+  
+5. Transfer Learning :
+
+![](images/transfer-learning.png)
+
 
 ### What is Neural Style Transfer : 
 
@@ -23,3 +31,41 @@ NST algorithms are characterized by their use of deep neural networks in order t
 - For Example:
 
 ![](images/circle_abstract.png)
+
+
+
+### Final Architecture of the Network :
+
+![](images/vgg-style-architecture.png)
+
+### Concept : 
+
+Using the Methodology of Transfer Learning, in this project we'll combine Content Images with Style images to change the Neural style 
+of the images.
+
+Look for Example:
+
+![](images/tm.jpg)
+
+$$TAJ-MAHAL$$
+
+![](images/interstellar.png)
+
+$$Gargantua (From Interstellar)
+
+Became This:
+
+![](output/generated_image.jpg)
+
+![](output/i-s100.png)
+
+- This Project uses pretrained VGG Network for training and combining with our model to generate these images.
+
+- To understand this project fully Knowledge of Cost function is advised.
+
+
+
+
+
+**All the images are picked from Google images only and the project is for 
+Education purpose only and not for production** 
