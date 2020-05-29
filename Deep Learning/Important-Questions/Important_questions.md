@@ -2,7 +2,7 @@
 
 - These questions are just important from Knowledge and Interview standpoint and nothing else.
 
--**Q.1** What is Bias and why there is a need of it ?
+**Q.1** What is Bias and why there is a need of it ?
 
 **Solution** : 
 Well, first, when we talk about bias, we’re talking about it on a per-neuron basis.
