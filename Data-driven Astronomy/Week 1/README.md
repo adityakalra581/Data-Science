@@ -2,11 +2,13 @@
 
 ### 1 Introductory pulsar material
 
-Introduction to Pulsars (from CSIRO, beginner) Hobbs, M. (n.d.). An introduction to pulsars. Retrieved February 14, 2017, from http://www.atnf.csiro.au/outreach/education/everyone/pulsars/index.html
+Introduction to Pulsars (from CSIRO, beginner) Hobbs, M. (n.d.). An introduction to pulsars. 
+Retrieved February 14, 2017, from http://www.atnf.csiro.au/outreach/education/everyone/pulsars/index.html
 
 Access options: open access
 
-Pulsar Properties (from NRAO, advanced) National Radio Astronomy Observatory. (2010). Pulsar Properties. Retrieved February 14, 2017, from http://www.cv.nrao.edu/course/astr534/Pulsars.html
+Pulsar Properties (from NRAO, advanced) National Radio Astronomy Observatory. (2010). Pulsar Properties. 
+Retrieved February 14, 2017, from http://www.cv.nrao.edu/course/astr534/Pulsars.html
 
 Access options: open access
 
@@ -15,7 +17,8 @@ Access options: open access
 There are plenty of resources online for learning programming, but if you’d like a “textbook”, on option we recommend is:
 
 Introduction to Python (O’Reilly) McKellar, J. (2014). 
-Introduction to Python. Retrieved from http://shop.oreilly.com/product/110000448.do
+Introduction to Python. 
+Retrieved from http://shop.oreilly.com/product/110000448.do
 
 Access options: 10- day free access through Safari. $79.99 to purchase complete resource
 
@@ -24,7 +27,9 @@ C. R. (2012). Practical statistics for astronomers (Second ed.). Cambridge: Camb
 
 Access options: £35.99.
 
-Additional material located here: Department of Physics and Astronomy, University of British Columbia. (n.d.). Practical Statistics for Astronomers. Retrieved from http://www.astro.ubc.ca/people/jvw/ASTROSTATS/
+Additional material located here: 
+Department of Physics and Astronomy, University of British Columbia. (n.d.). Practical Statistics for Astronomers.
+Retrieved from http://www.astro.ubc.ca/people/jvw/ASTROSTATS/
 
 ### 3 Research papers
 
@@ -41,6 +46,8 @@ Lindroos, L., Knudsen, K., Vlemmings, W., Conway, J., Marti-Vidal, I. (2015). St
 
 Access options: open access
 
-Radio visibility stacking to search for Type 1a supernova Hancock, P. P., Gaensler, B. M., & Murphy, T. (2011). Visibility stacking in the quest for type ia supernova radio emission. Astrophysical Journal Letters, 735(2) doi:10.1088/2041-8205/735/2/L35
+Radio visibility stacking to search for Type 1a supernova Hancock, P. P., Gaensler, 
+B. M., & Murphy, T. (2011). Visibility stacking in the quest for type ia supernova radio emission.
+Astrophysical Journal Letters, 735(2) doi:10.1088/2041-8205/735/2/L35
 
 Access options: open access
