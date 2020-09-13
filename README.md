@@ -47,7 +47,7 @@ The dataset consists of 364 images belonging to 8 categories, namely manipuri, b
 
 ## 4. [Fraud Detection](https://www.kaggle.com/aditya48/fraud-detection-feature-eng-lightgbm/):
 
-**Problem Statement:** The challenge is to build an algorithm that predicts whether a user will download an app after clicking a mobile app ad. To support your modeling, they have provided a generous dataset covering approximately 200 million clicks over 4 days!
+**Problem Statement:** The challenge is to build an algorithm that predicts whether a **user will download an app after clicking a mobile app ad**. To support your modeling, they have provided a generous dataset covering approximately 200 million clicks over 4 days!
 
 - Some images from the notebook:
 
@@ -70,6 +70,14 @@ The dataset consists of 364 images belonging to 8 categories, namely manipuri, b
 **Age and Sex Distribution of Data**
 
 ![](images/age-sex-distribution.PNG)
+
+## Other projects:
+
+### 6. [Real and Fake Facial Detection](https://www.kaggle.com/aditya48/real-and-fake-face-detection):
+
+### 7. [Radio Signal Classification using SETI Data](https://www.kaggle.com/aditya48/radio-signal-classification-using-seti-data):
+
+### 8. [Churn Prediction Model](https://github.com/adityakalra581/Data-Science/tree/master/Machine%20Learning/Supervised-Learning/Classification):
 
 
 
